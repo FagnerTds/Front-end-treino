@@ -7,14 +7,8 @@
   max-width: 75rem;
 
 }
-.cor1{
-  background-color: #70DA1C;
-  border-radius: 5px;
-}
-.cor2{
-  background-color: #CCF235;
-  border-radius: 5px;
-}
+
+
 .header-menu{
   display: flex;
   flex-wrap: wrap;
@@ -28,6 +22,12 @@
   text-decoration: none;
   color: #141414;
   display: block;
+  border: 3px solid #ffffff;
+  border-radius: 4px;
+}
+.header-menu a:hover{
+  border: 3px solid #67dd0a;
+  border-radius: 4px;
 }
 @media (max-width: 700px){
   .header{
