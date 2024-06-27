@@ -70,6 +70,32 @@
   background: #ffffff;
   border-radius: 4px;
   padding: 5px 10px;
-  
-  
+}
+@media (max-width: 800px){
+  .experiencia{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-top: 0rem;
+  }
+  .empresa-texto{
+    font-size: 1.25rem;
+  }
+  .empresa-ano{
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: start;
+  }
+  .empresa-ano::before{
+    content: "ano: ";
+  }
+  .empresa-texto{
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 400px){
+  .empresa{
+    grid-template-columns: 1fr;
+  }
 }

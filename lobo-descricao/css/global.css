@@ -26,3 +26,10 @@ img{
   line-height: 1;
   text-transform: uppercase;
 }
+@media (max-width:800px){
+  .subtitulo{
+    font-size: 3rem;
+    word-break:normal;
+    text-transform: capitalize;
+  }
+}
